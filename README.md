@@ -68,5 +68,5 @@ docker-compose up --build
 ### Demo
 
 <video width="1920" height="720" controls>
-  <source src="demo.mp4" type="video/mp4">
+  <source src="https://github.com/techlism/cistup_web_assignment_2024/blob/master/demo.mp4" type="video/mp4">
 </video>
