@@ -1,0 +1,23 @@
+version: '3.8'
+services:
+  server:
+    build:
+      context: .
+      dockerfile: ./server/Dockerfile
+    volumes:
+      - ./server:/app
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=development
+      - FLASK_APP=server.py
+    command: flask run --host=0.0.0.0
+
+  client:
+    build:
+      context: .
+      dockerfile: ./client/Dockerfile
+    ports:
+      - "3000:80"
+    depends_on:
+      - server

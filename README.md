@@ -55,4 +55,12 @@ To install and set up the server, follow these steps:
 5. Start the server:
     ```
     python app.py
+    
     ```
+
+
+### Docker
+```
+docker-compose up --build
+
+```
