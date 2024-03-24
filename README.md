@@ -64,3 +64,9 @@ To install and set up the server, follow these steps:
 docker-compose up --build
 
 ```
+
+### Demo
+
+<video width="1920" height="720" controls>
+  <source src="demo.mp4" type="video/mp4">
+</video>
